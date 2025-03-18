@@ -1,0 +1,46 @@
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+}
+
+.sidebar-header {
+  border-bottom: 1px solid #ddd;
+}
+
+.sidebar-brand {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  color: #333;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  background-color: #f8f9fa;
+}
+
+.active-nav {
+  background-color: #e9ecef;
+  font-weight: bold;
+}
+
+.logout-button {
+  background: none;
+  border: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background-color: #f8f9fa;
+}

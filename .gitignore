@@ -1,0 +1,17 @@
+# Frontend dependencies
+frontend/node_modules/
+
+# Backend dependencies
+backend/node_modules/
+backend/.env
+
+# Python virtual environment
+python/venv/
+python/__pycache__/
+python/evaluate.py
+python/fine_tuned_t5/
+
+# Ignore logs and system files
+*.log
+.DS_Store
+Thumbs.db
