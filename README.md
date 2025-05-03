@@ -62,6 +62,6 @@ The **Voice-Based Evaluation System** is designed to assist physically disabled 
 ```bash
  cd backend
  npm install
- npm start
+ node server
 ```
 
